@@ -22,12 +22,12 @@ class App extends React.Component {
         const { loading } = this.state;
         return (
             <div>
-                <h1>app title123</h1>
+                <h1>app title12323</h1>
                 <section>{loading ? "loading..." : "complete"}</section>
                 <section>content</section>
-                <Button>按钮</Button>
+                <Button>按钮12</Button>
                 <ButtonGroup>
-                    <Button>按钮1</Button>
+                    <Button>按钮1121</Button>
                     <Button>按钮2</Button>
                     <Button>按钮3</Button>
                 </ButtonGroup>

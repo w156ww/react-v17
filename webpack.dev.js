@@ -9,13 +9,13 @@ module.exports = merge(base, {
         contentBase: path.resolve(__dirname, "public"),
         compress: true, // gzip 压缩
         host: "0.0.0.0", // 设置为 0.0.0.0, 服务器外部可访问
-        // port: 8888,
+        port: 8081,
         hot: true,
-        open: "http://127.0.0.1:8080",
-        inline: true,
-        logLevel: "silent",
+        open: "http://127.0.0.1:8081",
+        // inline: true,
+        // logLevel: "silent",
         clientLogLevel: "silent", // 内联模式下，关掉浏览器控制台的打印信息，新版本 node warn 无效
-        historyApiFallback: true,
+        // historyApiFallback: true,
     },
     module: {
         rules: [
