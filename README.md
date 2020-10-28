@@ -18,20 +18,25 @@ react v17.0 + webpack 5
 * 插件添加 HtmlWebpackPlugin  MiniCssExtractPlugin webpack.HotModuleReplacementPlugin
 * 添加 react-hot-loader 插件，支持 react 的模块热替换（HMR），添加@hot-loader/react-dom 插件，支持 hooks 组件 的模块热替换
 * 命令行添加 --progress ，支持运行和打包时进度显示
+
 2020/10/26
 * 分离 webpack.config.js 配置，分为 webpack.dev 和 webpack.prod
 * 添加全局 DefinePlugin 配置，添加 process.env.NODE_NEV 变量
+
 2020/10/27
 * 自动对 js jsx json 文件补充扩展名
 * 开发模式不再自动清除dist文件
 * devServer 添加 host: 0.0.0.0 配置，服务器外部可访问
+
 2020/10/28
 * 删除 sideEffect: false 配置，修复运行和打包 css 文件没有效果的问题
 * 添加 postcss 编译工具，添加 postcss-preset-env postcss 插件，打包自动添加前缀
-* 添加 scss 配置
+* 添加 scss/less 配置
 * devServer 添加 `logLevel: silent` `clientLogLevel: silent` 配置，禁止在浏览器控制台打印编译信息
 * devServer 添加 `historyApiFallback` 配置，在 history 模式下，任意 404 响应都会跳转 index.html
 * devServer 将 `open: true` 修改为 `open: 'http://127.0.0.1:8080'`
+* 添加 eslint 设置，采用 alloy/react 规则
+* 添加 css module 配置
 
 #### 运行
 ```

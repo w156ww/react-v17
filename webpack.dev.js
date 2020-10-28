@@ -13,7 +13,7 @@ module.exports = merge(base, {
         hot: true,
         open: "http://127.0.0.1:8080",
         inline: true,
-        logLevel: 'silent',
+        logLevel: "silent",
         clientLogLevel: "silent", // 内联模式下，关掉浏览器控制台的打印信息，新版本 node warn 无效
         historyApiFallback: true,
     },
