@@ -1,0 +1,15 @@
+:global {
+    .flex-hide {
+        display: none !important;
+    }
+  
+    .flexBox {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+  
+}
