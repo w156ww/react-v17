@@ -53,7 +53,7 @@ yarn start
 npm run start
 ```
 
-##### shell脚本
+##### shell脚本（win 环境 shell命令可以在 git bash 中执行）
 ```
 sh dev.sh
 ```
