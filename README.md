@@ -39,6 +39,8 @@ react v17.0 + webpack 5
 * 添加 css module 配置
 * 删除 start 命令时的 --progress，否则在开发模式下，控制台会打印出进度
 * 添加 redux react-redux 包
+2020/11/2
+* 添加 dev.sh build.sh 自动化shell脚本
 
 
 #### 运行
