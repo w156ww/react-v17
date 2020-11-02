@@ -44,18 +44,31 @@ react v17.0 + webpack 5
 * 添加 dev.sh build.sh 自动化shell脚本
 
 
+
 #### 运行
+##### 常规方式
 ```
 yarn start
 // or
 npm run start
 ```
 
+##### shell脚本
+```
+sh dev.sh
+```
+
 #### 打包
+##### 常规方式
 ```
 yarn build
 or
 npm run build
+```
+
+##### shell脚本
+```
+sh build.sh
 ```
 
 
