@@ -1,9 +1,11 @@
 import React from "react";
+import { HashRouter, Route, Link } from "react-router-dom";
 import { hot } from "react-hot-loader/root";
 import "./app.css";
 import imgsrc from "../assets/img/tip.png";
 import Button from "./components/button.jsx";
 import ButtonGroup from "./components/ButtonGroup.jsx";
+import Movie from "./movie";
 class App extends React.Component {
     constructor(props) {
         super(props);
@@ -21,7 +23,11 @@ class App extends React.Component {
     render() {
         const { loading } = this.state;
         return (
-            <div>
+            <HashRouter>
+                <Route path="/" component={ButtonGroup} />
+                <Route path="/player" component={Movie} />
+                {/* <Route path="/" component={ButtonGroup} />
+                <Route path="/" component={ButtonGroup} /> */}
                 <h1>app title12323</h1>
                 <section>{loading ? "loading..." : "complete"}</section>
                 <section>content</section>
@@ -31,8 +37,9 @@ class App extends React.Component {
                     <Button>按钮2</Button>
                     <Button>按钮3</Button>
                 </ButtonGroup>
+                {/* <Movie /> */}
                 {/* <img src={imgsrc} alt="" /> */}
-            </div>
+            </HashRouter>
         );
     }
 }
