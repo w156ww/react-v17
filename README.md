@@ -43,6 +43,9 @@ react v17.0 + webpack 5
 2020/11/2
 * 添加 dev.sh build.sh 自动化shell脚本
 
+2021/1/20
+* 添加 portfinder 插件，优化启动项目时，port 被占用后自动增加 port。
+
 
 
 #### 运行
