@@ -21,8 +21,7 @@
     "react-router-dom": "^5.2.0",
     "redux": "^4.0.5",
     "sass": "^1.27.0",
-    "sass-loader": "^10.0.4",
-    "video.js": "^7.10.2"
+    "sass-loader": "^10.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
