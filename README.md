@@ -40,19 +40,38 @@ react v17.0 + webpack 5
 * 删除 start 命令时的 --progress，否则在开发模式下，控制台会打印出进度
 * 添加 redux react-redux 包
 
+2020/11/2
+* 添加 dev.sh build.sh 自动化shell脚本
+
+2021/1/20
+* 添加 portfinder 插件，优化启动项目时，port 被占用后自动增加 port。
+
+
 
 #### 运行
+##### 常规方式
 ```
 yarn start
 // or
 npm run start
 ```
 
+##### shell脚本（win 环境 shell命令可以在 git bash 中执行）
+```
+sh dev.sh
+```
+
 #### 打包
+##### 常规方式
 ```
 yarn build
 or
 npm run build
+```
+
+##### shell脚本
+```
+sh build.sh
 ```
 
 
